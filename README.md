@@ -22,10 +22,10 @@ For charts I used AMCHARTS, a javascript free code from http://www.amcharts.com.
 --------------------
 
 Download it:
-https://bitbucket.org/oriolmangas/exchange-converter/downloads
+https://github.com/oriolmangas/exchange-converter.git
 
 Or clone it:
-git clone https://oriolmangas@bitbucket.org/oriolmangas/exchange-converter.git
+git clone https://github.com/oriolmangas/exchange-converter.git
 
 
 2- Create the database
