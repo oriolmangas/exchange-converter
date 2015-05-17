@@ -1,0 +1,145 @@
+/* 
+    Document   : main
+    Created on : 12-ene-2014, 22:21:01
+    Author     : oriol
+    Description: calendar stylesheet
+*/
+
+* {margin:0; padding:0;}
+
+html {
+    background: none repeat scroll 0 0 #FFFFFF;
+    font: 100% arial,helvetica,clean,sans-serif;
+}
+
+body, div, ul, li, h1, form, input, p,th, td {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+select, input, button{
+    font: 99% arial,helvetica,clean,sans-serif;
+}
+table {
+    font-size: inherit;
+}
+h1 {
+    font-size: 138.5%;
+    margin: 1em 0;
+}
+blockquote, ul, ol, dl {
+    margin: 1em;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 0.5em;
+}
+th {
+    font-weight: bold;
+    text-align: center;
+}
+caption {
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+p, fieldset, table, pre {
+    margin-bottom: 1em;
+}
+
+#content {
+    background-color:#fff; 
+    margin:10px auto; 
+    padding:20px 40px; 
+    width:640px;
+    text-align:center;
+}
+#calendar {
+    width:640px;
+    margin: 0 auto;
+}
+#calendar .tabla {
+    position:relative; 
+    width:640px; 
+    padding-bottom:26px;
+}
+
+#calendar table {
+    border:1px solid #bbb; 
+    border-collapse: separate; 
+    border-spacing: 0; 
+    border-width:1px 0 0 1px; 
+    width:640px;
+}
+#calendar ul {
+    list-style:none;
+}
+#calendar table thead th {
+    border:1px solid #bbb; 
+    border-width:0 1px 1px 0 ; 
+}
+#calendar table tbody td {
+    text-align:center;
+    border:1px solid #bbb;
+    border-width:0 1px 1px 0 ; 
+}
+#calendar table tbody .NullDay {
+    color:#999999;
+} 
+#calNavMeses li {
+    bottom:12px; position:absolute;
+}
+#calNavYears li {
+    bottom:-12px; position:absolute;
+}
+#calendar ul .previous {
+    left:0;
+}
+#calendar ul .next {
+    right:0;
+}
+#content #calendar a {
+    color:#0000EE; 
+    text-decoration:none;
+}
+#content #calendar a:hover {
+    color:#F7941D;
+}
+tr:nth-child(even) {
+    background-color: #ccc 
+}
+tr:nth-child(odd) {
+    background-color: #e5e5e5
+}
+tr>th{
+    background-color:#fff;
+}
+#form1{
+    background-color:white;
+    border-radius:5px;
+    border:1px solid #333;
+    padding:5px 5px;
+}
+label{
+    font-weight:bold;
+}
+caption{
+    background-color:#333;
+    color:white;
+    padding:5px 5px;
+}
+
+.chart{
+    padding-top:20px;
+    height: 300px;
+}
+
